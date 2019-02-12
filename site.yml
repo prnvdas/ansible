@@ -3,7 +3,7 @@
   become: true
   gather_facts: false
   tasks:
-    - name: update apt cache
+    - name: update apt cache okay
       apt: update_cache=yes cache_valid_time=86400
       tags: [ 'packages' ]
 
